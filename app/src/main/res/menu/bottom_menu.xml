@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/datingFragment"
+        android:title="@string/dating"
+        android:icon="@drawable/search1"/>
+
+    <item
+        android:id="@+id/likeFragment"
+        android:title="@string/like"
+        android:icon="@drawable/loveyou"/>
+
+    <item
+        android:id="@+id/matchFragment"
+        android:title="@string/match"
+        android:icon="@drawable/heart2"/>
+
+    <item
+        android:id="@+id/messageFragment"
+        android:title="@string/message"
+        android:icon="@drawable/chat"/>
+
+
+    <item
+        android:id="@+id/profileFragment"
+        android:title="@string/profile"
+        android:icon="@drawable/user"/>
+</menu>

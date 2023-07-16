@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".ui.LikeFragment">
+
+        <com.yuyakaido.android.cardstackview.CardStackView
+            android:id="@+id/cardStackView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/controlsLayout"
+            android:layout_centerInParent="true"
+            tools:listitem="@layout/item_user_layout" />
+
+        <LinearLayout
+            android:id="@+id/controlsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:id="@+id/userprofile"
+                android:layout_marginHorizontal="15dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/user3" />
+
+            <ImageView
+                android:id="@+id/cancel"
+                android:layout_marginHorizontal="15dp"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                app:srcCompat="@drawable/cancel" />
+
+            <ImageView
+                android:id="@+id/heart"
+                android:layout_marginHorizontal="15dp"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                app:srcCompat="@drawable/heart3" />
+
+            <ImageView
+                android:id="@+id/reloading"
+                android:layout_marginHorizontal="15dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/reloading" />
+
+            <!-- Add the user profile TextView -->
+            <TextView
+                android:id="@+id/userProfileTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+    </RelativeLayout>

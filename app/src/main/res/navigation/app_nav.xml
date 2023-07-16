@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/datingFragment">
+
+
+
+    <fragment
+        android:id="@+id/datingFragment"
+        android:name="com.example.utc2datingapp.ui.DatingFragment"
+        android:label="fragment_dating"
+        tools:layout="@layout/fragment_dating" />
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="com.example.utc2datingapp.ui.MessageFragment"
+        android:label="fragment_message"
+        tools:layout="@layout/fragment_message" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.utc2datingapp.ui.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/matchFragment"
+        android:name="com.example.utc2datingapp.ui.MatchFragment"
+        android:label="fragment_match"
+        tools:layout="@layout/fragment_match" />
+    <fragment
+        android:id="@+id/likeFragment"
+        android:name="com.example.utc2datingapp.ui.LikeFragment"
+        android:label="fragment_like"
+        tools:layout="@layout/fragment_like" />
+</navigation>

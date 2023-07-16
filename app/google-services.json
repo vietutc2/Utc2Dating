@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "265217965488",
+    "project_id": "utc2-dating-app",
+    "storage_bucket": "utc2-dating-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265217965488:android:94fc72d46728df1b63ea75",
+        "android_client_info": {
+          "package_name": "com.example.utc2datingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265217965488-fi3gcgebmqh06qi7tl1l58ka06594vgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ83y5nP4Ajk0Un2_6Cl7hd9Nh-0R9SLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265217965488-fi3gcgebmqh06qi7tl1l58ka06594vgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
